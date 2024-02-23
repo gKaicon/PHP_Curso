@@ -1,0 +1,12 @@
+html{
+    background-image: url("backgroundConsoleCasa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{
+    color: green;
+    margin-top: 85px;
+    margin-left: 165px;
+    font-size: xx-large;
+}
