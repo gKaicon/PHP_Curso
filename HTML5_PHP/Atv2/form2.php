@@ -11,10 +11,11 @@
         $ano = isset($_GET["anoNasc"]) ? $_GET["anoNasc"] : 0;
         $sexo = isset($_GET["sexo"]) ? $_GET["sexo"] : "[sem sexo]";
 
-        $idade = (intval(date("Y")) - intval($ano) == intval(date("Y"))) ? "sem idade" : "tem" . (date("Y")) - intval($ano) . "anos";
+        $idade = (intval(date("Y")) - intval($ano) == intval(date("Y"))) ? "sem idade" : "tem " . (date("Y")) - intval($ano) . " anos";
 
         echo "$nome é $sexo e nasceu em $ano e $idade";
     ?>
+    <br>
     <a href="form2.html">Voltar</a>
 </body>
 </html>
