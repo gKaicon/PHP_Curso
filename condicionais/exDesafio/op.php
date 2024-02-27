@@ -15,7 +15,7 @@
             $situacao = "REPROVADO";
             $cor = "red";
         }
-        if ($m>5 && $m<=6) {
+        if ($m>=5 && $m<=6) {
             $situacao = "RECUPERAÇÃO";
             $cor = "yellow";
         }
