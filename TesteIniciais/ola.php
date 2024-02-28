@@ -11,7 +11,8 @@
 <body>
     <div>
         <?php
-        echo 'Olá mundo';
+        echo 'Olá mundo<br>';
+        echo 'Olá mundo 2';
         ?>
     </div>
 </body>
