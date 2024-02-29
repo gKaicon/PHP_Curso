@@ -38,9 +38,50 @@ $cad = array(
 );
 
 foreach($cad as $campo=>$conteudo){
-    echo "O campo $campo possui conteudo $conteudo<br>";
+    echo "<br>O campo $campo possui conteudo $conteudo";
 }
 $cad["bebe"] = false;
+var_dump($cad);
+echo "<br>";
+var_dump($v);
+array_push($v, 5);//adiciona no fim do vetor
+echo "<br>";
+var_dump($v);
+echo "<br> o Vetor v tem " . count($v);
+array_pop($v);//remove do final
+echo "<br> o Vetor v tem " . count($v);
+
+echo "<br>";
+array_unshift($v, 26);// colocar no inicio e bagunça as posições
+var_dump($v);
+
+echo "<br>";
+array_shift($v);//remover do inicio
+var_dump($v);
+
+echo "<br>";
+sort($v);//ordenação simples
+var_dump($v);
+
+echo "<br>";
+rsort($v);//ordenação reversa
+var_dump($v);
+
+echo "<br>";
+asort($v);//ordenação associativa, move os indices de acordo com o conteudo
+var_dump($v);
+
+echo "<br>";
+arsort($v);//ordenação associativa reversa, move os indices de acordo com o conteudo
+var_dump($v);
+
+echo "<br>";
+ksort($v);//ordenação dos indices, move os indices de acordo com a ordemdo mesmo
+var_dump($v);
+
+echo "<br>";
+krsort($v);//ordenação reversa dos indices, move os indices de acordo com a ordemdo mesmo
+var_dump($v);
 
 
 //matrizes
