@@ -47,7 +47,6 @@ var_dump($v);
 array_push($v, 5);//adiciona no fim do vetor
 echo "<br>";
 var_dump($v);
-echo "<br> o Vetor v tem " . count($v);
 array_pop($v);//remove do final
 echo "<br> o Vetor v tem " . count($v);
 
